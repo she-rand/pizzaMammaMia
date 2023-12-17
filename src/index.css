@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main{
+  height:90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner{
+  background-image: url(/public/pizzeria.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10% ;
+  background-size: cover;
+  padding: 20vh;
+  
+}
+.navbar{
+  background-color:tomato;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.activeStyle{
+  color: gold;
+  font-weight: 900;
+}
