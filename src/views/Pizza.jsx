@@ -59,7 +59,7 @@ const Pizza = () => {
                         }
                     </ListGroup>
                     <div className="d-flex justify-content-center align-item-center">
-                    <Card.Text >
+                    <Card.Text className="m-1" >
                         
                         Price:$ {pizza.price}
                         
